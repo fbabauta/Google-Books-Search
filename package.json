@@ -25,13 +25,5 @@
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.12.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fbabauta/Google-Books-Search.git"
-  },
-  "bugs": {
-    "url": "https://github.com/fbabauta/Google-Books-Search/issues"
-  },
-  "homepage": "https://github.com/fbabauta/Google-Books-Search#readme"
+  }
 }
