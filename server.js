@@ -21,12 +21,12 @@ app.get("*", function(req, res) {
 
 
 // Define any API routes here
-app.use(routes)
+app.use(routes);
 
 // Connect to the MongoDB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", { useNewUrlParser: true });
-db.on("Error on Mongo connection", error => console.error(error))
-db.once("connected", () => console.log("Success! You are connected to Mongoose"))
+db.on("Error on Mongo connection", error => console.error(error));
+db.once("connected", () => console.log("Success! You are connected to Mongoose"));
 
 
 app.listen(PORT, function() {
